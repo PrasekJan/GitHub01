@@ -26,7 +26,8 @@ namespace WindowsFormsApp1
             double soucet = a + b;
             double rozdil = a - b;
             double soucin = a * b;
-            
+            double podil = a / b;
+
 
 
 
@@ -35,7 +36,7 @@ namespace WindowsFormsApp1
             MessageBox.Show("Vysledek je " + soucet);
             MessageBox.Show("Vysledek je " + rozdil);
             MessageBox.Show("Vysledek je " + soucin);
-
+            MessageBox.Show("Vysledek je " + podil);
         }
     }
 }
