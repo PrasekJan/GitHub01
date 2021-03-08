@@ -19,13 +19,22 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int soucet = 0;
 
-            int a = Convert.ToInt32(textBox1.Text);
-            int b = Convert.ToInt32(textBox2.Text);
+            double a = int.Parse(textBox1.Text);
+            double b = int.Parse(textBox2.Text);
 
-            soucet = a + b;
+            double soucet = a + b;
+            double rozdil = a - b;
+            
+
+
+            
+
+           
             MessageBox.Show("Vysledek je " + soucet);
+            MessageBox.Show("Vysledek je " + rozdil);
+            
+
         }
     }
 }
